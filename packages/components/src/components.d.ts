@@ -1,8 +1,8 @@
-import * as components from "./index";
-declare module "@vue/runtime-core" {
+import * as components from './index';
+declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    EaButton: typeof components.Button;
-    EaIcon: typeof components.Icon;
+    DButton: typeof components.Button;
+    DIcon: typeof components.Icon;
   }
 }
 export {};
