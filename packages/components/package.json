@@ -11,9 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@dcbmui/utils": "workspace:^1.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@vitest/coverage-c8": "^0.29.2"
   }
