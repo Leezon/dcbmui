@@ -4,4 +4,5 @@
 
 <script lang="ts" setup>
 import './style/index.less';
+defineOptions({ name: 'd-icon' });
 </script>
