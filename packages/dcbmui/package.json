@@ -1,6 +1,6 @@
 {
   "name": "dcbmui",
-  "version": "1.0.7",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "module": "es/index.mjs",
   "files": [
@@ -23,6 +23,6 @@
     "url": "https://github.com/Leezon/dcbmui"
   },
   "dependencies": {
-    "@dcbmui/utils": "^1.0.2"
+    "@dcbmui/utils": "^1.0.0"
   }
 }
