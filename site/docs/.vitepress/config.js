@@ -1,5 +1,5 @@
 export default {
-  title: 'Easyest',
+  title: 'dcbmui',
   base: process.env.NODE_ENV === 'production' ? '/dcbmui/' : '/',
   themeConfig: {
     nav: [{ text: '文档', link: '/guild/introduce' }],
@@ -43,6 +43,6 @@ export default {
       ]
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/qddidi/dcbmui' }]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/Leezon/dcbmui' }]
   }
 };

@@ -1,23 +1,23 @@
 ---
 layout: home
 
-title: Easyest
+title: dcbmui
 titleTemplate: 一个快速搭建Vue3组件库的框架
 
 hero:
-  name: Easyest
+  name: dcbmui
   text: 一个快速搭建Vue3组件库的框架
   tagline: 让你的组件库开发更简单
   image:
     /src: /logo.png
-    alt: Easyest
+    alt: dcbmui
   actions:
     - theme: brand
       text: 开始
       link: /guild/introduce
     - theme: alt
       text: 在 GitHub 上查看
-      link: https://github.com/qddidi/dcbmui
+      link: https://github.com/Leezon/dcbmui
 
 features:
   - icon: 💡
