@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ea-button>按钮</ea-button>
+    <d-button>按钮</d-button>
     <Button>123</Button>
   </div>
 </template>

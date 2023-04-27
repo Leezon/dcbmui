@@ -21,14 +21,14 @@ button.vue 开发示例
 
 ```vue
 <template>
-  <button class="ea-button" :class="buttonStyle"><slot /></button>
+  <button class="d-button" :class="buttonStyle"><slot /></button>
 </template>
 
 <script lang="ts" setup>
-import "./style/index.less";
-import { computed } from "vue";
+import './style/index.less';
+import { computed } from 'vue';
 //组件命名
-defineOptions({ name: "ea-button" });
+defineOptions({ name: 'd-button' });
 type ButtonProps = {
   type?: string;
   size?: string;
@@ -36,7 +36,7 @@ type ButtonProps = {
 const buttonProps = defineProps<ButtonProps>();
 
 const buttonStyle = computed(() => {
-  return { [`ea-button--${buttonProps.type}`]: buttonProps.type };
+  return { [`d-button--${buttonProps.type}`]: buttonProps.type };
 });
 </script>
 ```
@@ -44,8 +44,8 @@ const buttonStyle = computed(() => {
 导出组件示例(button/index.ts)
 
 ```js
-import _Button from "./button.vue";
-import { withInstall } from "@dcbmui/utils";
+import _Button from './button.vue';
+import { withInstall } from '@dcbmui/utils';
 export const Button = withInstall(_Button);
 export default Button;
 ```
@@ -53,22 +53,22 @@ export default Button;
 导出全部组件(src/index.ts)
 
 ```js
-export * from "./button";
-export * from "./xx";
+export * from './button';
+export * from './xx';
 ```
 
 组件库入口文件(components/index.ts)
 
 ```js
-import * as components from "./src/index";
-export * from "./src/index";
-import { App } from "vue";
+import * as components from './src/index';
+export * from './src/index';
+import { App } from 'vue';
 
 export default {
   install: (app: App) => {
     for (let c in components) {
       app.use(components[c]);
     }
-  },
+  }
 };
 ```

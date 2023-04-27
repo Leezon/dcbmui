@@ -1,6 +1,6 @@
 {
   "name": "dcbmui",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "module": "es/index.mjs",
   "files": [
@@ -16,7 +16,7 @@
   ],
   "author": "Leezon",
   "license": "MIT",
-  "description": "",
+  "description": "vue3组件库",
   "typings": "lib/index.d.ts",
   "repository": {
     "type": "git",
