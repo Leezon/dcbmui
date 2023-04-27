@@ -20,7 +20,7 @@
   "typings": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Leezon/dcbmui.git"
   },
   "dependencies": {
     "@dcbmui/utils": "^1.0.2"
