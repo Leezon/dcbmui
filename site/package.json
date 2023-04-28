@@ -19,6 +19,6 @@
   },
   "dependencies": {
     "@dcbmui/components": "workspace:^1.0.0",
-    "dcbmui": "workspace:^1.0.4"
+    "dcbmui": "workspace:^1.0.3"
   }
 }
