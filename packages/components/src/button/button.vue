@@ -1,16 +1,18 @@
 <template>
-  <button class="d-button" :class="buttonStyle">
+  <Button class="d-button" :class="buttonStyle" :size="buttonProps.size">
     <slot />
-  </button>
+  </Button>
 </template>
 
 <script lang="ts" setup>
 import './style/index.less';
 import { computed } from 'vue';
+import { Button } from 'vant';
+import type { ButtonSize } from 'vant';
 defineOptions({ name: 'd-button' });
 type ButtonProps = {
   type?: string;
-  size?: string;
+  size?: ButtonSize;
 };
 const buttonProps = defineProps<ButtonProps>();
 

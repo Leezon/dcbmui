@@ -1,9 +1,7 @@
 <template>
   <div>
-    <d-button>按钮</d-button>
-    <Button>123</Button>
+    <d-button type="success" size="normal">1234</d-button>
+    <d-icon></d-icon>
   </div>
 </template>
-<script lang="ts" setup>
-import { Button } from '@dcbmui/components';
-</script>
+<script lang="ts" setup></script>

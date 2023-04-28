@@ -22,5 +22,8 @@
     "type": "git",
     "url": "https://github.com/Leezon/dcbmui"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "peerDependencies": {
+    "vant":"^4.2.0"
+  }
 }
